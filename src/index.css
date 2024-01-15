@@ -1,0 +1,51 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-image: url(./assets/Space.jpeg);
+  background-repeat: none;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: black;
+}
+
+button {
+  padding: 10px;
+  margin: 5px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+strong {
+  margin-top: 20px;
+  margin-bottom: 1rem;
+  display: block;
+  color: yellow;
+}
+
+#numbers {
+  color: white;
+}
